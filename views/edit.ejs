@@ -1,0 +1,18 @@
+<%- include("partials/header1") -%>
+<h1>Edit</h1>
+<form action="/edit" method="post">
+  <div class="form-group">
+
+    <label for="postTitle" class="formstyle">Title</label>
+
+    <input type="text" name="postTitle" class="form-control" id="postTitle" autocomplete="off" value="<%= title %>">
+    <input type="text" name="postID" style="display: none" value="<%=id%>">
+
+    <label for="postBody" class="formstyle">Description</label>
+
+    <textarea name="postBody" class="form-control" autocomplete="off" rows="8"><%= des %></textarea>
+
+  </div>
+  <button type="submit" name="button" class="btn btn-warning">Save Changes</button>
+</form>
+<%- include("partials/footer") -%>

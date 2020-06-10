@@ -1,0 +1,187 @@
+
+ /* .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+} */
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+h1{
+  color: #16817a;
+  font-family: 'Roboto', sans-serif;
+}
+h4{
+  color:#fff;
+  font-family: 'Tangerine', cursive;
+  font-size: 2.5rem;
+}
+h5{
+  color:maroon;
+  font-weight: lighter;
+  padding-left: 20px;
+  font-size: 1.5rem;
+  font-family: 'Sacramento', cursive;
+}
+h6{
+  color:grey;
+  font-weight: lighter;
+  padding-left: 30px;
+}
+hr{
+  color:grey;
+  width:10%;
+  padding: 20px;
+}
+.container
+{
+ background-color: #c1dfe6;
+ padding-left: 0;
+ padding-right: 0;
+}
+.maincontent{
+ padding: 25px;
+}
+body{
+ background-image: url("backg.jpg");
+}
+.namee{
+  font-size: 1.5rem;
+  font-family: serif;
+  color:#16817a;
+}
+.footer-padding {
+	padding-bottom: 60px;
+}
+.bgggg{
+  background-image: url("bgg.jpg");
+  width:100%;
+  text-align: center;
+  top:50%;
+  left:50%;
+  padding: 200px;
+}
+.text1{
+  font-size: 60px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  margin-bottom: -40px;
+  animation: text 3s 1;
+  color: #16817a;
+font-family: 'Tangerine', cursive;
+
+}
+.text2{
+  font-size: 30px;
+  color: maroon;
+  animation: example 3s 1;
+  letter-spacing: 10px;
+
+
+}
+p{
+  font-family: 'Roboto', sans-serif;
+
+}
+.mid{
+  text-align: center;
+}
+@keyframes text {
+  0%{
+    color: #ff9595;
+    margin-bottom: -40%;
+  }
+  60%{
+    color: #342b38;
+    letter-spacing: 20px;
+    margin-bottom: -40px;
+  }
+  85%{
+    color: #80bdab;
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+  }
+}
+@keyframes example {
+  0%{
+    color: #99b898;
+    margin-left: 0;
+  }
+  60%{
+    color: #16817a;
+  margin-left: 50px;
+}
+  85%{
+    color:#ff847c;
+    margin-left: -50px;
+  }
+}
+.sidetext{
+  padding-top: 150px;
+  color: #4d4646;
+  font-size: 30px;
+  font-family: 'Monserrat', sans-serif;
+  text-align: right;
+  animation: ex2 3s 1;
+}
+@keyframes ex2 {
+  0%{
+    color: #fff;
+  }
+  60%{
+    color: #fff;
+  }
+  85%{
+    color:#fff;
+  }
+}
+.card{
+  margin:30px;
+}
+.entrytext
+{
+  text-align: center;
+  color:#16817a;
+  font-size: 3rem;
+}
+.formstyle{
+  font-family: 'Tangerine', cursive;
+  font-size: 2.5rem;
+}
+.contactmail
+{
+  text-align: center;
+  background-color: #fd5e53;
+}
+.contactfooter{
+  text-align: center;
+  margin-top:80px;
+}
+.logos{
+  margin:20px;
+}
+.footer {
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #16817a;
+  /* #1abc9c; */
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
